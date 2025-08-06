@@ -5,9 +5,9 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        /*this is a  program that makes the user guess a number(or a name or whatever, idc) 
-         * and the user has three chances to do so. if you guess it right, you win something 
-         * (what, idc), if you run out of guesses, the game is over and you can 
+        /*this is a  program that makes the user guess a number(or a name ) 
+         * and the user has three chances to do so. if you guess it right, you win something.
+         * if you run out of guesses, the game is over and you can 
          * choose if u want to play again or leave
          */
         int TheNum = 24;
@@ -46,4 +46,5 @@ internal class Program
         } while (again == true);
 
     }
+
 }
